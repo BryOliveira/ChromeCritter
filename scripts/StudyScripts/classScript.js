@@ -5,11 +5,23 @@ var row = 1;
 var homework
 var dueDate
 var className
+var optionDoggo
 
 function displayDetails() {
 	homework = document.getElementById("homework").value;
 	dueDate = document.getElementById("dueDate").value;
 	className = document.getElementById("classInput").value;
+	const doggos = document.getElementById("doggos");
+	const pet = document.getElementById("pet"); //i don't think this is right
+	
+	document.getElementById('doggos').addEventListener('click', showDoggo);
+	
+	function showDoggo() {
+		doggo.replaceChild(pet, doggo) //this is prolly not right
+	}
+
+	
+	
 	if(homework == "" || dueDate == "" || className == "")
 		alert("Please fill all the boxes");
 	else{

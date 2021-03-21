@@ -57,9 +57,21 @@
 		<h2>Welcome to Chrome Critter</h2>
 		<hr>
 		
-		<div class = "pet">
+		<div>Choose a doggo</div><div id="doggos"  style="display:none;" class="answer_list" ></div>
+		<select name="doggos" id="doggos" multiple>
+		  <option value="Doggo">Doggo</option>
+		  <option value="Derpo">Derpo</option>
+		  <option value="Waggy">Waggy</option>
+		  <option value="Corgi">Corgi</option>
+		<br><br>
+		<input type="button" name="Confirm" value="Confirm?" onclick="showDoggo()" />	
+		</select>
+		
+		<div class = "pet" id = "pet">
 			<img src="../images/Derp Doggo Idle.gif" style=" width: 80%; image-rendering: pixelated">
 		</div>
+		
+
 		
 		<div class="container">
 			<div class="input"><br><input id="classInput" type="text" placeholder="class name"></input></div>

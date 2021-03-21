@@ -1,0 +1,39 @@
+.navbar {
+	background-color: rgb(189, 214, 214);
+	overflow: hidden;
+	padding: 2.5% 2.5%;
+	width: auto;
+	margin: auto;
+	border-radius: 15px;
+}
+
+.navbar a {
+	background-color: rgb(102, 102, 102);
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 18px;
+	padding: 1.5% 8.66%;
+	text-align: center;
+	font-family: sans-serif;
+	border-radius: 10px;
+	font-weight: 300;
+}
+.navbar a:hover{
+	background-color: gray;
+}
+
+body{
+	height: 500px;
+	width: 475px;
+}
+
+header{
+	background-color: rgb(161, 255, 192);
+	border-radius: 20px;
+	padding: 2%;
+	width: auto;
+	margin: auto;
+}
+#healthBar {
+	
+}

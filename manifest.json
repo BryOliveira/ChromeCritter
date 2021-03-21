@@ -1,0 +1,34 @@
+{
+  //main stuff
+  "manifest_version": 3,
+  "name": "Prototype",
+  "description": "prototype extension",
+  "version": "0.5",
+
+  "action":{
+		"default_icon": "images/TestIcon.png",
+		"default_popup": "pages/popup.html"
+  },
+
+  "permissions": [
+        "storage",
+		"webNavigation"
+    ],
+	
+  "web_accessible_resources": [
+	
+  ],
+  
+  "content_scripts": [
+	{
+		"matches": [
+		"<all_urls>"
+		],
+		"js": [
+			"/scripts/PetScripts/bars.js",
+			"/scripts/StudyScripts/classScript.js"
+		]
+	}
+  ]
+
+}

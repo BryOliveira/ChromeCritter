@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>TomaPrototype</title>
+		<link href="../styles/style.css" rel="stylesheet" type="text/css" />
+		<style>
+			h2{
+				text-align: center;
+			}
+			input, button {
+				font-size: 18px;
+				font-family: sans-serif;
+				margin: auto;
+				margin-bottom: 10px;
+			}
+			table {
+				font-family: arial, sans-serif;
+				border-collapse: collapse;
+				width: 100%;
+			}
+			td, th {
+				border: 1px solid #cccccc;
+				padding: 8px;
+			}
+			
+			th {
+				font-weight: bold;
+				text-transform: uppercase;
+			}
+			input {
+				margin-bottom: 8px;
+			}
+			.container {
+				width: 44%;
+				float: left;
+			}
+			.pet{
+				width: 45%;
+				float: right;
+				border: dashed;
+				border-radius: 10px;
+			}
+		</style>
+	</head>
+	<body>
+	
+		<header>
+			<div class = "navbar">
+				<a href="popup.html">Productivity</a>
+				<a href="pet.html">Needs</a>
+				<a href="settings.html">Settings</a>
+			</div>
+		</header>
+		<hr>
+		<h2>Welcome to Chrome Critter</h2>
+		<hr>
+		
+		<div class = "pet">
+			<img src="../images/Derp Doggo Idle.gif" style=" width: 80%; image-rendering: pixelated">
+		</div>
+		
+		<div class="container">
+			<div class="input"><br><input id="classInput" type="text" placeholder="class name"></input></div>
+			<div class="input"><br><input id="homework" type="text" placeholder="homework"></input> </div>
+			<div class="input"><br><input id="dueDate" type="text" placeholder="due date"></input> </div>
+			
+			<button id="entry" style="margin-top: 5px">Input entry</button>
+		</div>
+
+		
+		
+		<table id="display">
+			<tr>
+				<th>Class</th>
+				<th>HW</th>
+				<th>Due Date</th>
+				<th>Check</th>
+			</tr>
+		
+		<script src="../scripts/StudyScripts/classScript.js"></script>
+	</body>
+</html>

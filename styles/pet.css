@@ -1,0 +1,14 @@
+.pet{
+	
+		overflow: hidden;
+		margin: auto;
+		margin-top: 10px;
+}
+table {
+	margin-top: 10px;
+}
+tr, th, td {
+	border: solid 1px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
